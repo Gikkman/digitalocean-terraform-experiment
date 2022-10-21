@@ -46,3 +46,9 @@ This will destroy all resources currently **created** by terraform (so in my set
 I've setup this repo with a `root module` and one `child module`. 
 
 The root module will have to gather all variables that the child module needs, and then forward the variable to the child module. Additionally, the root module has to list all outputs that should be visible to the user (an output in a module is not shown). 
+
+# Nice reads:
+* Good guide: https://www.digitalocean.com/community/tutorials/how-to-use-terraform-with-digitalocean
+* Remote tfstate store on DigitalOcean: https://www.padok.fr/en/blog/digitalocean-kubernetes#kubernetes-cluster
+* Module documentation: https://developer.hashicorp.com/terraform/language/modules
+* Variable documentation: https://developer.hashicorp.com/terraform/language/values/variables
